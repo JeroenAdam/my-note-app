@@ -182,6 +182,8 @@ For setting up the backend, add these user environment variables:
 
 The `notes` index will be automatically created on first startup.
 
+In production, it's recommended not to expose your Elasticsearch instance directly to the browser. Instead, proxy all requests through your backend.
+
 
 ### Optional: Automatic Backups
 
